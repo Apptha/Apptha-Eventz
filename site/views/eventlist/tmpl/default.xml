@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+       <layout title="List Events" option="List Events">
+		<help
+			key = "List Events"
+		/>
+		<message>List Events</message>
+	</layout>
+</metadata>

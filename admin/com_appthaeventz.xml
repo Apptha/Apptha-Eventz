@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<install type="component" version="1.6" method="upgrade">
+	<name>Apptha Eventz</name>
+	<creationDate>November 3 2012</creationDate>
+	<author>Apptha</author>
+        <authorEmail>support@apptha.com</authorEmail>
+        <authorUrl>http://www.apptha.com</authorUrl>
+	<copyright>(C) 2012 Contus</copyright>
+	<license>GNU/GPL http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<version>1.0</version>
+	<description><![CDATA[&nbsp;&nbsp;<p>Apptha Eventz is an additional feature used to define a process that helps to manage events to become more effective and efficient. 
+Apptha Eventz is designed with commercial and unique venues in mind.
+Apptha Eventz is a fully integrated scheduling product for conference management, meeting management, stage shows, personalized programs, resources, etc. </p>
+]]></description>
+	<installfile>appthaeventzinstall.php</installfile>
+        <uninstallfile>appthaeventzuninstall.php</uninstallfile>
+        <files folder="site">
+            <filename>appthaeventz.php</filename>
+            <filename>controller.php</filename>
+            <filename>router.php</filename>
+            <filename>notify.php</filename>
+            <filename>index.html</filename>
+            <folder>css</folder>
+            <folder>calendar</folder>
+            <folder>images</folder>
+             <folder>js</folder>
+            <folder>lib</folder>
+            <folder>models</folder>
+            <folder>views</folder>
+            <folder>controllers</folder>
+            <folder>helpers</folder>
+        </files>
+        <languages folder="languages/site">
+            <language tag="en-GB">en-GB.com_appthaeventz.ini</language>
+	</languages>
+	<administration>		
+            <menu img="components/com_appthaeventz/assets/images/16/dashboard.png">Apptha Eventz</menu>
+            <submenu>
+                    <menu img="components/com_appthaeventz/assets/images/16/dashboard.png" link="option=com_appthaeventz&amp;view=dashboard" >Dashboard</menu>
+                    <menu img="components/com_appthaeventz/assets/images/16/event.png" link="option=com_appthaeventz&amp;view=events" >Events</menu>
+                    <menu img="components/com_appthaeventz/assets/images/16/categories.png" link="option=com_appthaeventz&amp;view=categories">Categories</menu>
+                    <menu img="components/com_appthaeventz/assets/images/16/subs.png" link="option=com_appthaeventz&amp;view=subscriptions" >Subscriptions</menu>
+                    <menu img="components/com_appthaeventz/assets/images/16/payment.png" link="option=com_appthaeventz&amp;view=paymentintegration">Payment Integration</menu>
+                    <menu img="components/com_appthaeventz/assets/images/16/import.png" link="option=com_appthaeventz&amp;view=import&amp;task=add">Import</menu>
+                    <menu img="components/com_appthaeventz/assets/images/16/settings.png" link="option=com_appthaeventz&amp;view=settings">Settings</menu>
+            </submenu>
+            <files folder="admin">			
+                <filename>index.html</filename>
+                <filename>appthaeventz.php</filename>
+                 <folder>models</folder>
+                <folder>views</folder>
+                <folder>controllers</folder>
+                <folder>assets</folder>
+                <folder>helpers</folder>
+                <folder>tables</folder>
+            </files>
+            <languages folder="languages/admin">
+                <language tag="en-GB">en-GB.com_appthaeventz.sys.ini</language>
+            </languages>
+	</administration>
+</install>
+                
+

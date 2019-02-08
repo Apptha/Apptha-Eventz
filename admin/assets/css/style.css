@@ -1,0 +1,53 @@
+ .contus-icon{
+
+margin-right: 15px;
+float: left;
+margin-bottom: 15px;
+border:1px solid #333;
+padding:10px;
+    }
+    .contus-icon:hover{background:#e5e5e5}
+    .clear{clear:both;}
+    .text{padding:10px;color:#333;margin:10px;line-height: 17px;font-size: 12px;}
+    .text a{padding: 7px;font-size: 12px;font-weight: 700;border:1px solid #ccc;text-transform:uppercase }
+    .text a:hover{padding: 7px;font-size: 12px;font-weight: 700;color: #000;background: #FAFAFA }
+    #toolbar-box{display: block;}
+    html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{margin:0; padding:0; border:0; outline:0}
+
+ol, ul{list-style:none}
+.floatleft{float:left}
+.floatright{float:right}
+
+.clear{clear:both; height:0px; font-size:0px}
+.clearfix:after{ clear:both;  display:block;  content:"";  height:0px;  visibility:hidden}
+.clearfix{ display:inline-block}
+
+* html .clearfix{ height:1%}
+.clearfix{ display:block}
+li.clearfix{ display:list-item}
+
+div.cpanel-left {float: left;width:50% !important; }
+.banner{padding-bottom: 10px;}
+#cpanel div.icon {background: white;float: left;margin-bottom: 15px;margin-right: 15px;text-align: center;}
+#cpanel div.icon a {border: 1px solid #EAEAEA;color: #565656;display: block;float: left;height: 97px;text-decoration: none;vertical-align: middle;width: 108px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+#cpanel div.icon a:hover {background: #FBFBFB;border-bottom: 1px solid #CCC;border-left: 1px solid #EEE;border-right: 1px solid #CCC;border-top: 1px solid #EEE;}
+#cpanel img {margin: 0px auto;padding: 10px 0px;}
+#cpanel span {display: block;text-align: center;font-family: 'arial';color:#8D8371;font-size: 12px;}
+.heading{ margin-bottom: 10px;  font-family: arial; line-height: 24px;  font-size: 24px;  font-weight: bold;  color: #146295;    padding: 0;}
+.pane-sliders{margin: 0px;padding: 0px;}
+.ui-tabs-vertical { width: 55em; }
+            .ui-tabs-vertical .ui-tabs-nav { padding: 0; float: left; width: 12em; }
+            .ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%;  }
+            .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+            .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-selected { padding-bottom: 0; padding-right: .1em;}
+            .ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+            #smallwidth {width:30px;}
+            #smallheight {width:30px;}
+            #largewidth {width:30px;}
+            #largeheight {width:30px;}
+            #olderarchive{width:40px;}
+/*15/10/12*/
+.resize{width: 11px; margin-top: 3px;}
+.right_scv{padding: 20px;background: white;border: 1px solid #CCC; display: block;}
+.import_btn{background: url(components/com_appthaeventz/assets/images/btn_bg.jpg) repeat-x; border:1px solid #cacaca; border-radius:3px; height: 20px;}
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+       <layout title="Category List" option="Category List">
+		<help
+			key = "Category List"
+		/>
+		<message>Category List</message>
+	</layout>
+</metadata>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+       <layout title="Location" option="Location">
+		<help
+			key = "Location"
+		/>
+		<message>Location</message>
+	</layout>
+</metadata>

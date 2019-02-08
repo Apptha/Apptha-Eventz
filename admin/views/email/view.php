@@ -1,0 +1,36 @@
+<?php
+/**
+ * @name          : Apptha Eventz
+ * @version       : 1.0
+ * @package       : apptha
+ * @since         : Joomla 1.6
+ * @subpackage    : Apptha Eventz.
+ * @author        : Apptha - http://www.apptha.com
+ * @copyright     : Copyright (C) 2012 Powered by Apptha
+ * @license       : GNU/GPL http://www.gnu.org/licenses/gpl-3.0.html
+ * @abstract      : Apptha Eventz.
+ * @Creation Date : November 3 2012
+ **/
+// No direct access to this file
+defined('_JEXEC') or die('Restricted access');
+// import Joomla view library
+jimport('joomla.application.component.view');
+
+
+class AppthaeventzViewemail extends JView
+{
+
+	public function display($tpl = NULL)
+	{
+            
+               $model = $this->getModel();
+               
+               $this->assignRef('email', $email);
+               $getemailpopupsettings = $model->getemailpopupsettings();
+               $this->assignRef('getemailpopupsettings',$getemailpopupsettings);
+                
+		parent::display();
+	}
+
+
+}

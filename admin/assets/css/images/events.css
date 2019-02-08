@@ -1,0 +1,49 @@
+
+/**
+ * @name          : Event Management
+ * @version       : 1.0
+ * @package       : apptha
+ * @since         : Joomla 1.5
+ * @subpackage    : Event Management.
+ * @author        : Apptha - http://www.apptha.com
+ * @copyright     : Copyright (C) 2011 Powered by Apptha
+ * @license       : GNU/GPL http://www.gnu.org/licenses/gpl-3.0.html
+ * @abstract      : Event Management system.
+ * @Creation Date : September 26 2012
+ * @Modified Date : September 23 2012
+ **/
+
+.floatleft{float:left;}
+.floatright{float:right;}
+
+.clear{clear:both;}
+
+.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+	.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important;  margin: 0 -1px .2em 0; }
+	.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+	.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-selected { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; border-right-width: 1px; }
+	.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: left; width: 80%;}
+	.add_photo
+        {
+        width:200px;
+        height: 150px;
+        text-align: center;
+        }
+        .add_photo a{background: url(images/btn-bg.jpg) repeat-x; display: block; padding: 0 15px; border-radius: 3px;
+border: 1px solid #CACACA;}
+        .tabs label{
+            display: block;
+
+
+}
+
+.toggle-editor{display:none;}
+
+#tabs label1
+{
+    width: 150px;
+}
+#tabs table label1
+{
+    width: auto !important;
+}
